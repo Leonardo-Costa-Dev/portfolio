@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="home" id="home">
+            <div class="introducao">
+                <div id="logo">
+                    <h1 id="name"></h1>
+                    <img src="./src/imagens/leo3.png" alt="imagem leo" id="leo">
+                    <img src="./src/imagens/abstract-blue-fractal-wave-technology-background.jpg" alt="papel-parede"
+                        id="papel-parede">
+                    <nav id="social">
+                        <a href="https://www.facebook.com/leonardo.costadasilva.56" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/leonardo.costa.dev/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/leonardo-costa-da-silva-a8ba3b210/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Leonardo-Elyte" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </nav>
+                </div>
+                <div id="apresentacao">
+                    <div id="sobre">
+                        <h2>Sobre</h2>
+                        <p id="paragrafo">
+                            Olá! Meu nome é Leonardo, sou vendedor e atualmente estou em transição de carreira com
+                            dedicação
+                            nos estudos para ser um desenvolvedor front-end. Em outubro/2022 tomei a decisão de iniciar
+                            meus
+                            estudos, através de cursos técnicos. Desde então venho procurando me aperfeiçoar cada dia
+                            mais
+                            para poder conseguir minha primeira oportunidade na área de front-end. Recentemente iniciei
+                            o
+                            curso
+                            de Análise e Desenvolvimento de Sistemas, na Estácio, para poder está sempre em constante
+                            aprendizado.
+                        </p>
+                    </div>
+                    <div id="nav">
+                        <h3>Habilidades</h3>
+                        <div id="icones">
+                            <img id="html" src="./src/imagens/icons8-html-5-48.png" alt="icone html">
+                            <img id="js" src="./src/imagens/icons8-javascript-48.png" alt="icone js">
+                            <img id="css" src="/src/imagens/icons8-css3-48.png" alt="icone css">
+                            <img id="react" src="./src/imagens/react.png" alt="icone react">
+                        </div>
+                        <a href="#projetos">Projetos</a>
+                    </div>
+        </section>
+        <section id="projetos">
+            <h2 id="title">Projetos</h2>
+            <div class="projeto">
+                <ul id="listProjetos">
+                    <li id="cardPokemon">
+                        <a href="https://github.com/Leonardo-Elyte/pokemon" target="_blank"><img src="./src/imagens/pokemon.png" alt="Projeto Pokemon"></a>
+                    </li>
+                    <li id="landingPage">
+                        <a href="https://github.com/Leonardo-Elyte/Atividade-html-css-avancado-js-intermediario.git" target="_blank"><img src="./src/imagens/landing-page.png" alt="Projeto landing-page "></a>
+                    </li>
+                    <li id="htmlCssJs">
+                        <a href="https://github.com/Leonardo-Elyte/Exercicio-HTML-CSS-JS-Avancado.git" target="_blank"><img src="./src/imagens/html-css-js-avanc.png" alt="Projeto html-css-js-avanc"></a>
+                    </li>
+                    <li id="usuarioGit" class="loadProjeto">
+                        <a href="https://github.com/Leonardo-Elyte/atividade-js-avancado-pegando-dados-github.git" target="_blank"><img src="./src/imagens/usuario-git.png" alt="Projeto usuario-git"></a>
+                    </li>
+                    <li id="breve" class="loadProjeto">
+                        <a href="#breve" >
+                            <p>Pojetos em Breve!</p>
+                        </a>
+                    </li>
+                    <li id="breve1" class="loadProjeto">
+                        <a href="#breve">
+                            <p>Pojetos em Breve!</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p id="text">
+                Clique nos projetos para ver mais detalhes!
+            </p>
+            <div class="btns">
+                <button id="btn" class="btn">
+                   <h3>Carregar Projetos</h3>
+                </button>
+                <a href="#home">
+                    <button class="btn">Home</button>
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/8828592964.js" crossorigin="anonymous"></script>
+    <script src="./src/js/index.js" defer></script>
+</body>
+
+</html>
