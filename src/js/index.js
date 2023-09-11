@@ -154,9 +154,10 @@ breve1.addEventListener('mouseout', e => {
 })
 
 
-// carregar mais projetos //
+// carregar mais projetos e remover //
 
 const btn = document.querySelector('#btn')
+const btnR = document.querySelector('#btnR')
 
 
 btn.addEventListener('click', () => {
@@ -166,4 +167,12 @@ btn.addEventListener('click', () => {
         list[i].style.display = 'block'
     }
 
+})
+
+btnR.addEventListener('click', () => {
+    const list2 = document.querySelectorAll('.loadProjeto')
+
+    for(let i = 0; i <list2.length; i++){
+        list2[i].style.display ='none'
+    }
 })
