@@ -198,7 +198,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 750px;
 }
 
 #projetos #title {
@@ -337,7 +337,6 @@ main {
     font-size: 13px;
     font-weight: 600;
     cursor: pointer;
-
 }
 
 #projetos .btn:hover {
@@ -416,6 +415,7 @@ main {
 
     #projetos {
         margin-top: 50%;
+        height: auto;
     }
 
     #projetos .btns {
